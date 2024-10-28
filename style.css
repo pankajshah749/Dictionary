@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: royalblue;
+}
+.main{
+    background-color: white;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    padding:40px ;
+}
+.value{
+    height: 40px;
+    width: 250px;
+    border-width: 0px 0px 3px 0px;
+    border-color: royalblue;
+    margin-right: 50px;
+    
+}
+.search{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    justify-content: center;
+    background-color: royalblue;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.dictionary_app{
+    margin-top: 50px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.dictionary_app div{
+    margin-bottom: 12px;
+}
+.word, .phonetic{
+    /* font-weight: none; */
+    font-size: 20px;
+    font-style: italic;
+}
+.speech{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+}
